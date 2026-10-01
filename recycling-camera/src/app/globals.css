@@ -62,7 +62,32 @@ h1 { margin: 0 0 8px; font-size: 2rem; }
   cursor: pointer;
 }
 
-.scan:disabled { opacity: 0.6; cursor: wait; }
+.scan:disabled { 
+  opacity: 0.6;
+  cursor: wait; 
+}
+
+.scan + .picker { 
+  margin-top: 12px;
+}
+
+.preview.live {
+  max-height: 420px;
+  object-fit: cover;
+  background: #0d1a14;
+}
+
+.secondary {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 18px;
+  border: 2px solid #21864a;
+  border-radius: 12px;
+  color: #21864a;
+  background: white;
+  font-weight: 700;
+  cursor: pointer;
+}
 
 .result {
   margin-top: 20px;
